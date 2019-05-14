@@ -5,16 +5,19 @@
   
 
   
-  <title>第二篇博文 | Hexo</title>
+  <title>Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="article">
-<meta property="og:title" content="第二篇博文">
+  <meta name="description" content="辅助运输需求分析  调度原有审批功能不变  车队管理增加任务拒绝功能  车队管理的下层包含三个车队（生产、威龙、塔通）  车队指派任务（司机 车辆 时间 地点 ）（增加指派任务队列）  调度员、车队管理需要显示所有车辆的车载人数  调度员、车队管理需要显示所有车辆的坐标和运行轨迹  调度员、车队管理需要显示所有车辆的运行状态（是否空车）  车队需要显示所属车辆的车载人数）  车队需要显示所属车辆的">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Hexo">
 <meta property="og:url" content="http://yoursite.com/2019/05/14/第二篇博文/index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="辅助运输需求分析  调度原有审批功能不变  车队管理增加任务拒绝功能  车队管理的下层包含三个车队（生产、威龙、塔通）  车队指派任务（司机 车辆 时间 地点 ）（增加指派任务队列）  调度员、车队管理需要显示所有车辆的车载人数  调度员、车队管理需要显示所有车辆的坐标和运行轨迹  调度员、车队管理需要显示所有车辆的运行状态（是否空车）  车队需要显示所属车辆的车载人数）  车队需要显示所属车辆的">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2019-05-14T13:04:34.747Z">
+<meta property="og:updated_time" content="2019-05-14T13:22:57.613Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="第二篇博文">
+<meta name="twitter:title" content="Hexo">
+<meta name="twitter:description" content="辅助运输需求分析  调度原有审批功能不变  车队管理增加任务拒绝功能  车队管理的下层包含三个车队（生产、威龙、塔通）  车队指派任务（司机 车辆 时间 地点 ）（增加指派任务队列）  调度员、车队管理需要显示所有车辆的车载人数  调度员、车队管理需要显示所有车辆的坐标和运行轨迹  调度员、车队管理需要显示所有车辆的运行状态（是否空车）  车队需要显示所属车辆的车载人数）  车队需要显示所属车辆的">
   
     <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -64,30 +67,82 @@
         <section id="main"><article id="post-第二篇博文" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2019/05/14/第二篇博文/" class="article-date">
-  <time datetime="2019-05-14T13:04:34.000Z" itemprop="datePublished">2019-05-14</time>
+  <time datetime="2019-05-14T13:22:57.613Z" itemprop="datePublished">2019-05-14</time>
 </a>
     
   </div>
   <div class="article-inner">
     
     
-      <header class="article-header">
-        
-  
-    <h1 class="article-title" itemprop="name">
-      第二篇博文
-    </h1>
-  
-
-      </header>
-    
     <div class="article-entry" itemprop="articleBody">
       
-        
+        <h3 id="辅助运输需求分析"><a href="#辅助运输需求分析" class="headerlink" title="辅助运输需求分析"></a>辅助运输需求分析</h3><ul>
+<li style="list-style: none"><input type="checkbox" checked> 调度原有审批功能不变</li>
+<li style="list-style: none"><input type="checkbox" checked> 车队管理增加任务拒绝功能</li>
+<li style="list-style: none"><input type="checkbox" checked> 车队管理的下层包含三个车队（生产、威龙、塔通）</li>
+<li style="list-style: none"><input type="checkbox"> 车队指派任务（司机 车辆 时间 地点 ）（增加指派任务队列）</li>
+<li style="list-style: none"><input type="checkbox"> 调度员、车队管理需要显示所有车辆的车载人数</li>
+<li style="list-style: none"><input type="checkbox"> 调度员、车队管理需要显示所有车辆的坐标和运行轨迹</li>
+<li style="list-style: none"><input type="checkbox"> 调度员、车队管理需要显示所有车辆的运行状态（是否空车）</li>
+<li style="list-style: none"><input type="checkbox"> 车队需要显示所属车辆的车载人数）</li>
+<li style="list-style: none"><input type="checkbox"> 车队需要显示所属车辆的坐标和运行轨迹</li>
+<li style="list-style: none"><input type="checkbox"> 车队需要显示所属车辆的运行状态（是否空车）</li>
+<li style="list-style: none"><input type="checkbox"> 多余的车辆删除</li>
+<li style="list-style: none"><input type="checkbox"> 相似的任务合并</li>
+<li style="list-style: none"><input type="checkbox"> 显示车速</li>
+<li style="list-style: none"><input type="checkbox"> 超速提醒</li>
+<li style="list-style: none"><input type="checkbox"> 出入井方向</li>
+<li style="list-style: none"><input type="checkbox"> 部署仿真环境</li>
+<li style="list-style: none"><input type="checkbox"> 申请https证书</li>
+<li style="list-style: none"><input type="checkbox"> 部署正式环境</li>
+<li style="list-style: none"><input type="checkbox"> 更新几个用车信息</li>
+<li style="list-style: none"><input type="checkbox"> 候车站点统计修改</li>
+<li style="list-style: none"><input type="checkbox"> webrtc的服务端</li>
+</ul>
+<h3 id="客户端"><a href="#客户端" class="headerlink" title="客户端"></a>客户端</h3><ul>
+<li style="list-style: none"><input type="checkbox"> 推送</li>
+</ul>
+<h3 id="待确定需求"><a href="#待确定需求" class="headerlink" title="待确定需求"></a>待确定需求</h3><blockquote>
+<ul>
+<li>实时任务的指派是否需要通过车队</li>
+<li>现在任务是在系统里看还是调度给一份任务列表</li>
+</ul>
+</blockquote>
+<h3 id="派车服务端功能"><a href="#派车服务端功能" class="headerlink" title="派车服务端功能"></a>派车服务端功能</h3><ol>
+<li>车队指派成功后，加入消息队列</li>
+</ol>
+<h3 id="车载终端服务端功能"><a href="#车载终端服务端功能" class="headerlink" title="车载终端服务端功能"></a>车载终端服务端功能</h3><ol>
+<li>车载终端与车牌号的绑定<blockquote>
+<p>需要实现增删改查功能</p>
+</blockquote>
+</li>
+<li>验证终端是否合法<blockquote>
+<p>判断终端是否合法,发送设备终端ID和身份识别卡ID,本地不做缓存，由服务端匹配,并且返回结果：</p>
+<ul>
+<li>终端合法</li>
+<li>终端不合法-终端未注册</li>
+<li>终端不合法-终端已经绑定其他设备(由管理员处理)</li>
+</ul>
+</blockquote>
+</li>
+<li>匹配司机信息<blockquote>
+<p>返回所有符合要求的司机列表</p>
+</blockquote>
+</li>
+<li>获取任务请求<blockquote>
+<p>根据参数区分未完成、已完成、已拒绝等任务类型。<br>以列表形式返回<br>支持分页功能<br>未完成任务也是列表</p>
+</blockquote>
+</li>
+<li>websocket通道<blockquote>
+<p>有新任务发送消息</p>
+</blockquote>
+</li>
+</ol>
+
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/05/14/第二篇博文/" data-id="cjvnt623v0001vji8d75gvkmv" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2019/05/14/第二篇博文/" data-id="cjvntun7p0001xsi8ngk9nliu" class="article-share-link">Share</a>
       
       
     </footer>
@@ -136,15 +191,11 @@
       <ul>
         
           <li>
-            <a href="/2019/05/14/第二篇博文/">第二篇博文</a>
+            <a href="/2019/05/14/第二篇博文/">(no title)</a>
           </li>
         
           <li>
             <a href="/2019/05/11/我的第一篇文章/">我的第一篇文章</a>
-          </li>
-        
-          <li>
-            <a href="/2019/05/11/hello-world/">Hello World</a>
           </li>
         
       </ul>
